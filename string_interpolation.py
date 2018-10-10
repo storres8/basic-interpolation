@@ -29,4 +29,9 @@ print("and this is the result rounded to 3 decimal places {r:1.3f}".format(r=res
 # prints and this is the result rounded to 3 decimal places 0.176
 
 # the width value simply increases the space between the number and the word right
-# before it 
+# before it
+
+# We also have f-string literals that is much newer than the .format() method
+name="steven"
+p="python"
+print(f'hello {name} this is writtin in {p} using f-string litrals')
